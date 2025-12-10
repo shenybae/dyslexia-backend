@@ -6,7 +6,7 @@ import pickle
 
 # Load model, scaler, and label encoder
 model = pickle.load(open("best_mobile_dyslexia_model.pkl", "rb"))
-scaler = pickle.load(open("mbest_mobile_dyslexia_model_scaler.pkl", "rb"))
+scaler = pickle.load(open("best_mobile_dyslexia_model_scaler.pkl", "rb"))
 label_encoder = pickle.load(open("best_mobile_dyslexia_model_labels.pkl", "rb"))
 
 app = FastAPI()
