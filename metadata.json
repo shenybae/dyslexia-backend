@@ -1,0 +1,7 @@
+{
+  "name": "DyslexiaScale",
+  "description": "A comprehensive, continuous assessment tool for dyslexia screening and difficulty prediction using 8 standardized mobile-friendly tests.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
